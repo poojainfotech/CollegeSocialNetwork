@@ -1,0 +1,514 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3EB307A0-BCB6-4BB8-B566-B4214FB8FF08}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CollegeSocialNetwork</RootNamespace>
+    <AssemblyName>CollegeSocialNetwork</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44314</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>1591</NoWarn>
+    <DocumentationFile>bin\CollegeSocialNetwork.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSNConnectionUtility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CSNConnectionUtility\CSNConnectionUtility\bin\Debug\CSNConnectionUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.7\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.7\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminUser\AdminHomePage.aspx" />
+    <Content Include="Course\AddCourse.aspx" />
+    <Content Include="Course\DeleteCourse.aspx" />
+    <Content Include="Course\ViewCourse.aspx" />
+    <Content Include="CSS\datecss\pikaday.css" />
+    <Content Include="CSS\datecss\site.css" />
+    <Content Include="CSS\datecss\theme.css" />
+    <Content Include="CSS\datecss\triangle.css" />
+    <Content Include="Discussion\Discussion.aspx" />
+    <Content Include="Error\SessionExpire.aspx" />
+    <Content Include="Faculty\Faculty.aspx" />
+    <Content Include="ForgotPassword\ChangePassword.aspx" />
+    <Content Include="ForgotPassword\ForgotPassword.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="images\HomeImage\headerImage1.png" />
+    <Content Include="images\HomeImage\headerImage2.png" />
+    <Content Include="images\HomeImage\headerImage3.jpg" />
+    <Content Include="images\HomeImage\headerImage4.jpg" />
+    <Content Include="images\HomeImage\headerImage5.jpg" />
+    <Content Include="images\HomeImage\headerImage6.jpg" />
+    <Content Include="images\loginImages\loginImage1.jpg" />
+    <Content Include="images\loginImages\loginImage3.jpg" />
+    <Content Include="images\loginImages\loginImage4.jpg" />
+    <Content Include="images\loginImages\loginImage5.jpg" />
+    <Content Include="images\loginImages\loginImage6.jpg" />
+    <Content Include="images\loginImages\loginImage7.jpg" />
+    <Content Include="images\SocialImage\Media_1.png" />
+    <Content Include="images\SocialImage\Media_2.jpeg" />
+    <Content Include="images\SocialImage\Media_3.jpeg" />
+    <Content Include="images\SocialImage\Media_4.jpeg" />
+    <Content Include="images\SocialImage\Media_5.jpg" />
+    <Content Include="images\UserImage\User1.jpg" />
+    <Content Include="JS\Login.js" />
+    <Content Include="JS\LogOff.js" />
+    <Content Include="JS\pikaday.js" />
+    <Content Include="JS\UserAddedSuccessfully.js" />
+    <Content Include="JS\ValidateEmailAddress.js" />
+    <Content Include="JS\WhenWindowClose.js" />
+    <Content Include="Login\CSNLogin.aspx" />
+    <Content Include="CSS\mainmenues.css" />
+    <Content Include="Mail\Mail.aspx" />
+    <Content Include="Mail\MailMessage.aspx" />
+    <Content Include="Profile\LikeButtonImage\Comment1.PNG" />
+    <Content Include="Profile\LikeButtonImage\LikeButton4.png" />
+    <Content Include="Profile\LikeButtonImage\LikeButton5.png" />
+    <Content Include="Profile\LikeButtonImage\LikeButton6.png" />
+    <Content Include="Profile\LikeButtonImage\LikeButton7.jfif" />
+    <Content Include="Profile\LikeButtonImage\LikeButton8.png" />
+    <Content Include="Profile\LikeButtonImage\SaveComment.png" />
+    <Content Include="Profile\LikeButtonImage\SaveComment1.png" />
+    <Content Include="Profile\LikeButtonImage\ShowCommentHistory.png" />
+    <Content Include="Profile\SocialActivities.aspx" />
+    <Content Include="Profile\SocialImage\11.jfif" />
+    <Content Include="Profile\SocialImage\12.jfif" />
+    <Content Include="Profile\SocialImage\13.jfif" />
+    <Content Include="Profile\SocialImage\14.jfif" />
+    <Content Include="Profile\SocialImage\15.jfif" />
+    <Content Include="Profile\SocialImage\headerImage1.png" />
+    <Content Include="Profile\SocialImage\headerImage2.png" />
+    <Content Include="Profile\SocialImage\headerImage3.jpg" />
+    <Content Include="Profile\SocialImage\headerImage4.jpg" />
+    <Content Include="Profile\SocialImage\headerImage5.jpg" />
+    <Content Include="Profile\SocialImage\headerImage6.jpg" />
+    <Content Include="Profile\UserContact.aspx" />
+    <Content Include="Profile\AddUser.aspx" />
+    <Content Include="Profile\UpdateProfile.aspx" />
+    <Content Include="Profile\UserProfile.aspx" />
+    <Content Include="Profile\UserSocialCommentHistory.aspx" />
+    <Content Include="Profile\ViewUser.aspx" />
+    <Content Include="Quiz\AddQuiz.aspx" />
+    <Content Include="Quiz\DeleteQuiz.aspx" />
+    <Content Include="Quiz\QuizFormateHelp.aspx" />
+    <Content Include="Quiz\TestByStudent.aspx" />
+    <Content Include="Quiz\ViewQuizResult.aspx" />
+    <Content Include="Quiz\ViewQuiz.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Profile\GenericsHandlers\UploadHandler.ashx" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\moment.min.js" />
+    <Content Include="Student\Student.aspx" />
+    <Content Include="Student\TimelineRecords.aspx" />
+    <Content Include="Student\ViewStudents.aspx" />
+    <Content Include="Subject\AddSubject.aspx" />
+    <Content Include="Subject\DeleteSubject.aspx" />
+    <Content Include="Subject\ViewSubject.aspx" />
+    <Content Include="Test.aspx" />
+    <Content Include="UploadFile\UploadStudyMaterial.aspx" />
+    <Content Include="UploadFile\ViewStudyMaterial.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminUser\AdminHomePage.aspx.cs">
+      <DependentUpon>AdminHomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminUser\AdminHomePage.aspx.designer.cs">
+      <DependentUpon>AdminHomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\HelloWebAPIConfig.cs" />
+    <Compile Include="Controller\DefaultController.cs" />
+    <Compile Include="Controller\DiscussionForumController.cs" />
+    <Compile Include="Controller\GetUserProfileController.cs" />
+    <Compile Include="Controller\HelloController.cs" />
+    <Compile Include="Controller\PdfFileFunctionController.cs" />
+    <Compile Include="Controller\QuizDetailsController.cs" />
+    <Compile Include="Controller\UserMailsController.cs" />
+    <Compile Include="Controller\UserMailsDetails.cs" />
+    <Compile Include="Course\AddCourse.aspx.cs">
+      <DependentUpon>AddCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Course\AddCourse.aspx.designer.cs">
+      <DependentUpon>AddCourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Course\DeleteCourse.aspx.cs">
+      <DependentUpon>DeleteCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Course\DeleteCourse.aspx.designer.cs">
+      <DependentUpon>DeleteCourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Course\ViewCourse.aspx.cs">
+      <DependentUpon>ViewCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Course\ViewCourse.aspx.designer.cs">
+      <DependentUpon>ViewCourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Discussion\Discussion.aspx.cs">
+      <DependentUpon>Discussion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Discussion\Discussion.aspx.designer.cs">
+      <DependentUpon>Discussion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error\SessionExpire.aspx.cs">
+      <DependentUpon>SessionExpire.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error\SessionExpire.aspx.designer.cs">
+      <DependentUpon>SessionExpire.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Faculty.aspx.cs">
+      <DependentUpon>Faculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Faculty\Faculty.aspx.designer.cs">
+      <DependentUpon>Faculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword\ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword\ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\GetsUserProfileSocialActivity.cs" />
+    <Compile Include="Profile\GenericsHandlers\UploadHandler.ashx.cs">
+      <DependentUpon>UploadHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login\CSNLogin.aspx.cs">
+      <DependentUpon>CSNLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login\CSNLogin.aspx.designer.cs">
+      <DependentUpon>CSNLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\Mail.aspx.cs">
+      <DependentUpon>Mail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mail\Mail.aspx.designer.cs">
+      <DependentUpon>Mail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\MailMessage.aspx.cs">
+      <DependentUpon>MailMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mail\MailMessage.aspx.designer.cs">
+      <DependentUpon>MailMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\SocialActivities.aspx.cs">
+      <DependentUpon>SocialActivities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile\SocialActivities.aspx.designer.cs">
+      <DependentUpon>SocialActivities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\UserContact.aspx.cs">
+      <DependentUpon>UserContact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile\UserContact.aspx.designer.cs">
+      <DependentUpon>UserContact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DiscussionForum.cs" />
+    <Compile Include="Model\GetUserProfileInfo.cs" />
+    <Compile Include="Model\QuizInformation.cs" />
+    <Compile Include="Model\StatusMessage.cs" />
+    <Compile Include="Model\UserInformation.cs" />
+    <Compile Include="Profile\AddUser.aspx.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile\AddUser.aspx.designer.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\UpdateProfile.aspx.cs">
+      <DependentUpon>UpdateProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile\UpdateProfile.aspx.designer.cs">
+      <DependentUpon>UpdateProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\UserProfile.aspx.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile\UserProfile.aspx.designer.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\UserSocialCommentHistory.aspx.cs">
+      <DependentUpon>UserSocialCommentHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile\UserSocialCommentHistory.aspx.designer.cs">
+      <DependentUpon>UserSocialCommentHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\ViewUser.aspx.cs">
+      <DependentUpon>ViewUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile\ViewUser.aspx.designer.cs">
+      <DependentUpon>ViewUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quiz\AddQuiz.aspx.cs">
+      <DependentUpon>AddQuiz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quiz\AddQuiz.aspx.designer.cs">
+      <DependentUpon>AddQuiz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Quiz\DeleteQuiz.aspx.cs">
+      <DependentUpon>DeleteQuiz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quiz\DeleteQuiz.aspx.designer.cs">
+      <DependentUpon>DeleteQuiz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Quiz\QuizFormateHelp.aspx.cs">
+      <DependentUpon>QuizFormateHelp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quiz\QuizFormateHelp.aspx.designer.cs">
+      <DependentUpon>QuizFormateHelp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Quiz\TestByStudent.aspx.cs">
+      <DependentUpon>TestByStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quiz\TestByStudent.aspx.designer.cs">
+      <DependentUpon>TestByStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Quiz\ViewQuizResult.aspx.cs">
+      <DependentUpon>ViewQuizResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quiz\ViewQuizResult.aspx.designer.cs">
+      <DependentUpon>ViewQuizResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Quiz\ViewQuiz.aspx.cs">
+      <DependentUpon>ViewQuiz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quiz\ViewQuiz.aspx.designer.cs">
+      <DependentUpon>ViewQuiz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\Student.aspx.cs">
+      <DependentUpon>Student.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student\Student.aspx.designer.cs">
+      <DependentUpon>Student.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\TimelineRecords.aspx.cs">
+      <DependentUpon>TimelineRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student\TimelineRecords.aspx.designer.cs">
+      <DependentUpon>TimelineRecords.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\ViewStudents.aspx.cs">
+      <DependentUpon>ViewStudents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student\ViewStudents.aspx.designer.cs">
+      <DependentUpon>ViewStudents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Subject\AddSubject.aspx.cs">
+      <DependentUpon>AddSubject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Subject\AddSubject.aspx.designer.cs">
+      <DependentUpon>AddSubject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Subject\DeleteSubject.aspx.cs">
+      <DependentUpon>DeleteSubject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Subject\DeleteSubject.aspx.designer.cs">
+      <DependentUpon>DeleteSubject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Subject\ViewSubject.aspx.cs">
+      <DependentUpon>ViewSubject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Subject\ViewSubject.aspx.designer.cs">
+      <DependentUpon>ViewSubject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadFile\UploadStudyMaterial.aspx.cs">
+      <DependentUpon>UploadStudyMaterial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadFile\UploadStudyMaterial.aspx.designer.cs">
+      <DependentUpon>UploadStudyMaterial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadFile\ViewStudyMaterial.aspx.cs">
+      <DependentUpon>ViewStudyMaterial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadFile\ViewStudyMaterial.aspx.designer.cs">
+      <DependentUpon>ViewStudyMaterial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserDetails.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\adminImages\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64007</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/CollegeSocialNetwork</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+          <servers defaultServer="">
+            <server name="SelfHostServer" exePath="" cmdArgs="" url="http://localhost:64007/" workingDir="" />
+          </servers>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

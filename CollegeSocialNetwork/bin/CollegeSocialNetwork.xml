@@ -1,0 +1,1912 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CollegeSocialNetwork</name>
+    </assembly>
+    <members>
+        <member name="F:CollegeSocialNetwork.AdminUser.AdminHomePage.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.AdminUser.AdminHomePage.ScriptManager1">
+            <summary>
+            ScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.AdminUser.AdminHomePage.lblCurrentUser">
+            <summary>
+            lblCurrentUser control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.AdminUser.AdminHomePage.lblCurrentDateTime">
+            <summary>
+            lblCurrentDateTime control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.AdminUser.AdminHomePage.hiddenUserName">
+            <summary>
+            hiddenUserName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.AdminUser.AdminHomePage.hiddenSenderEmailAddress">
+            <summary>
+            hiddenSenderEmailAddress control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Course.AddCourse.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Course.AddCourse.ScriptManager1">
+            <summary>
+            ScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Course.AddCourse.txtCourseName">
+            <summary>
+            txtCourseName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Course.AddCourse.btnAddCourse">
+            <summary>
+            btnAddCourse control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Course.AddCourse.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Course.AddCourse.Label1">
+            <summary>
+            Label1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Course.AddCourse.lblMsg">
+            <summary>
+            lblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Course.DeleteCourse.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Course.DeleteCourse.ScriptManager1">
+            <summary>
+            ScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Course.DeleteCourse.DropDownList1">
+            <summary>
+            DropDownList1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Course.DeleteCourse.btnAddCourse">
+            <summary>
+            btnAddCourse control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Course.DeleteCourse.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Course.DeleteCourse.lblMsg">
+            <summary>
+            lblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Course.ViewCourse.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Course.ViewCourse.ScriptManager1">
+            <summary>
+            ScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Course.ViewCourse.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Course.ViewCourse.lblMsg">
+            <summary>
+            lblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Discussion.Discussion.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Discussion.Discussion.ScriptManager1">
+            <summary>
+            ScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Discussion.Discussion.ddlCourse">
+            <summary>
+            ddlCourse control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Discussion.Discussion.ddlSemester">
+            <summary>
+            ddlSemester control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Discussion.Discussion.lblMsg">
+            <summary>
+            lblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Discussion.Discussion.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Discussion.Discussion.hiddenUserName">
+            <summary>
+            hiddenUserName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Error.SessionExpire.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Error.SessionExpire.btnBacktoLoginPage">
+            <summary>
+            btnBacktoLoginPage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Faculty.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Faculty.ScriptManager1">
+            <summary>
+            ScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Faculty.lblCurrentUser">
+            <summary>
+            lblCurrentUser control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Faculty.lblCurrentDateTime">
+            <summary>
+            lblCurrentDateTime control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Faculty.hiddenUserName">
+            <summary>
+            hiddenUserName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Faculty.hiddenSenderEmailAddress">
+            <summary>
+            hiddenSenderEmailAddress control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.ForgotPassword.ChangePassword.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.ForgotPassword.ChangePassword.txtUserName">
+            <summary>
+            txtUserName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.ForgotPassword.ChangePassword.txtewPassword">
+            <summary>
+            txtewPassword control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.ForgotPassword.ChangePassword.btnChangePassword">
+            <summary>
+            btnChangePassword control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.ForgotPassword.ChangePassword.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.ForgotPassword.ChangePassword.lblMsg">
+            <summary>
+            lblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.ForgotPassword.ForgotPassword.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.ForgotPassword.ForgotPassword.txtUserName">
+            <summary>
+            txtUserName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.ForgotPassword.ForgotPassword.PasswordChangedButton">
+            <summary>
+            PasswordChangedButton control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.ForgotPassword.ForgotPassword.btnBackToLoginPage">
+            <summary>
+            btnBackToLoginPage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.ForgotPassword.ForgotPassword.lblPasswordResetLink">
+            <summary>
+            lblPasswordResetLink control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.ForgotPassword.ForgotPassword.hiddenUserName">
+            <summary>
+            hiddenUserName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.ForgotPassword.ForgotPassword.hiddenSenderEmailAddress">
+            <summary>
+            hiddenSenderEmailAddress control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CollegeSocialNetwork.GenericsHandlers.UploadHandler">
+            <summary>
+            Summary description for UploadHandler
+            </summary>
+        </member>
+        <member name="F:CollegeSocialNetwork.CSNLogin.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.CSNLogin.ScriptManager1">
+            <summary>
+            ScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.CSNLogin.txtUserName">
+            <summary>
+            txtUserName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.CSNLogin.txtUserPassword">
+            <summary>
+            txtUserPassword control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.CSNLogin.txtUserCollegeCode">
+            <summary>
+            txtUserCollegeCode control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.CSNLogin.logInButton">
+            <summary>
+            logInButton control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.CSNLogin.lblUserLoginDetails">
+            <summary>
+            lblUserLoginDetails control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Mail.Mail.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Mail.Mail.ScriptManager1">
+            <summary>
+            ScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Mail.Mail.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Mail.Mail.hiddenUserName">
+            <summary>
+            hiddenUserName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Mail.Mail.hiddenSenderEmailAddress">
+            <summary>
+            hiddenSenderEmailAddress control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Mail.MailMessage.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Mail.MailMessage.hiddenUserName">
+            <summary>
+            hiddenUserName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Mail.MailMessage.hiddenSenderEmailAddress">
+            <summary>
+            hiddenSenderEmailAddress control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Mail.UserContact.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Mail.UserContact.hiddenUserName">
+            <summary>
+            hiddenUserName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Mail.UserContact.hiddenSenderEmailAddress">
+            <summary>
+            hiddenSenderEmailAddress control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.SocialActivities.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.SocialActivities.uploadPdfFile">
+            <summary>
+            uploadPdfFile control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.SocialActivities.uploadImagefile">
+            <summary>
+            uploadImagefile control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.SocialActivities.txtChat">
+            <summary>
+            txtChat control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.SocialActivities.hiddenUserName">
+            <summary>
+            hiddenUserName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.SocialActivities.hiddenSenderEmailAddress">
+            <summary>
+            hiddenSenderEmailAddress control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.ddlTypeOfUser">
+            <summary>
+            ddlTypeOfUser control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.hiddenFieldForTypeOfUser">
+            <summary>
+            hiddenFieldForTypeOfUser control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.ddlTypeColledgeCode">
+            <summary>
+            ddlTypeColledgeCode control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.txtUserName">
+            <summary>
+            txtUserName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.fileUploadImage">
+            <summary>
+            fileUploadImage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.txtUserPassword">
+            <summary>
+            txtUserPassword control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.txtUserConfirmPassword">
+            <summary>
+            txtUserConfirmPassword control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.txtUserParentName">
+            <summary>
+            txtUserParentName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.txtUserParentPassword">
+            <summary>
+            txtUserParentPassword control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.txtUserParentConfirmPassword">
+            <summary>
+            txtUserParentConfirmPassword control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.txtFirstName">
+            <summary>
+            txtFirstName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.txtMiddleName">
+            <summary>
+            txtMiddleName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.txtLastName">
+            <summary>
+            txtLastName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.ddlStudentCourse">
+            <summary>
+            ddlStudentCourse control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.txtEmailAddress">
+            <summary>
+            txtEmailAddress control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.txtPremises">
+            <summary>
+            txtPremises control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.txtDateOfBirth">
+            <summary>
+            txtDateOfBirth control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.ddlGender">
+            <summary>
+            ddlGender control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.txtPinNo">
+            <summary>
+            txtPinNo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.txtCity">
+            <summary>
+            txtCity control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.txtState">
+            <summary>
+            txtState control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.txtCoutry">
+            <summary>
+            txtCoutry control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.txtPhone">
+            <summary>
+            txtPhone control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.btAddUser">
+            <summary>
+            btAddUser control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.AddUser.btnClear">
+            <summary>
+            btnClear control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.txtFirstName">
+            <summary>
+            txtFirstName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.userImage">
+            <summary>
+            userImage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.txtMiddleName">
+            <summary>
+            txtMiddleName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.txtLastName">
+            <summary>
+            txtLastName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.txtEmailAddress">
+            <summary>
+            txtEmailAddress control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.txtPremises">
+            <summary>
+            txtPremises control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.txtDateOfBirth">
+            <summary>
+            txtDateOfBirth control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.ddlGender">
+            <summary>
+            ddlGender control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.txtPinNo">
+            <summary>
+            txtPinNo control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.txtCity">
+            <summary>
+            txtCity control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.txtState">
+            <summary>
+            txtState control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.txtCoutry">
+            <summary>
+            txtCoutry control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.txtPhone">
+            <summary>
+            txtPhone control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.fileUploadImage">
+            <summary>
+            fileUploadImage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.btSaveUserProfile">
+            <summary>
+            btSaveUserProfile control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UpdateProfile.btnClear">
+            <summary>
+            btnClear control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UserProfile.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UserProfile.uploadPdfFile">
+            <summary>
+            uploadPdfFile control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UserProfile.txtChat">
+            <summary>
+            txtChat control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UserProfile.hiddenUserName">
+            <summary>
+            hiddenUserName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UserProfile.hiddenSenderEmailAddress">
+            <summary>
+            hiddenSenderEmailAddress control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UserSocialCommentHistory.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.UserSocialCommentHistory.lblMsg">
+            <summary>
+            lblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.ViewUser.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Profile.ViewUser.Button2">
+            <summary>
+            Button2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.AddQuiz.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.AddQuiz.fileUploadQuiz">
+            <summary>
+            fileUploadQuiz control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.AddQuiz.btnUploadQuiz">
+            <summary>
+            btnUploadQuiz control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.AddQuiz.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.AddQuiz.lblMsg">
+            <summary>
+            lblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.AddQuiz.hiddenUserName">
+            <summary>
+            hiddenUserName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.AddQuiz.hiddenSenderEmailAddress">
+            <summary>
+            hiddenSenderEmailAddress control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.DeleteQuiz.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.DeleteQuiz.hdnIdToDelete">
+            <summary>
+            hdnIdToDelete control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.DeleteQuiz.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.DeleteQuiz.btnDelete">
+            <summary>
+            btnDelete control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.QuizFormateHelp.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.QuizFormateHelp.hiddenUserName">
+            <summary>
+            hiddenUserName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.QuizFormateHelp.hiddenSenderEmailAddress">
+            <summary>
+            hiddenSenderEmailAddress control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.TestByStudent.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.TestByStudent.lblMsg">
+            <summary>
+            lblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.TestByStudent.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.TestByStudent.btnPrevious">
+            <summary>
+            btnPrevious control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.TestByStudent.btnNext">
+            <summary>
+            btnNext control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.TestByStudent.btnSubmit">
+            <summary>
+            btnSubmit control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.TestByStudent.hiddenPreviousCount">
+            <summary>
+            hiddenPreviousCount control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.TestByStudent.HiddenNextCount">
+            <summary>
+            HiddenNextCount control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.TestByStudent.HiddenSlideCount">
+            <summary>
+            HiddenSlideCount control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.TestByStudent.HiddenQuestionAnswerDetails">
+            <summary>
+            HiddenQuestionAnswerDetails control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.TestResult.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.TestResult.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.TestResult.lblMsg">
+            <summary>
+            lblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.TestResult.hiddenPreviousCount">
+            <summary>
+            hiddenPreviousCount control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.TestResult.HiddenNextCount">
+            <summary>
+            HiddenNextCount control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.TestResult.HiddenQuestionAnswerDetails">
+            <summary>
+            HiddenQuestionAnswerDetails control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.TestResult.HiddenFieldUserName">
+            <summary>
+            HiddenFieldUserName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.ViewQuiz_aspx.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.ViewQuiz_aspx.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Quiz.ViewQuiz_aspx.lblMsg">
+            <summary>
+            lblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Student.StudentProfile.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Student.StudentProfile.ScriptManager1">
+            <summary>
+            ScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Student.StudentProfile.lblCurrentUser">
+            <summary>
+            lblCurrentUser control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Student.StudentProfile.lblCurrentDateTime">
+            <summary>
+            lblCurrentDateTime control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Student.StudentProfile.hiddenUserName">
+            <summary>
+            hiddenUserName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Student.StudentProfile.hiddenSenderEmailAddress">
+            <summary>
+            hiddenSenderEmailAddress control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Student.TimelineRecords.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Student.TimelineRecords.ScriptManager1">
+            <summary>
+            ScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Student.TimelineRecords.lblMsg">
+            <summary>
+            lblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Student.TimelineRecords.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Student.ViewStudents.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Student.ViewStudents.ScriptManager1">
+            <summary>
+            ScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Student.ViewStudents.lblMsg">
+            <summary>
+            lblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Student.ViewStudents.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.AddSubject.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.AddSubject.ScriptManager1">
+            <summary>
+            ScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.AddSubject.ddListCourse">
+            <summary>
+            ddListCourse control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.AddSubject.ddlSemester">
+            <summary>
+            ddlSemester control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.AddSubject.txtSubjectName">
+            <summary>
+            txtSubjectName control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.AddSubject.btnAddSubject">
+            <summary>
+            btnAddSubject control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.AddSubject.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.AddSubject.lblMsg">
+            <summary>
+            lblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.DeleteSubject.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.DeleteSubject.ScriptManager1">
+            <summary>
+            ScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.DeleteSubject.ddListCourse">
+            <summary>
+            ddListCourse control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.DeleteSubject.ddListOfSubject">
+            <summary>
+            ddListOfSubject control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.DeleteSubject.btnDeleteSubject">
+            <summary>
+            btnDeleteSubject control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.DeleteSubject.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.DeleteSubject.lblMsg">
+            <summary>
+            lblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.ViewSubject.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.ViewSubject.ScriptManager1">
+            <summary>
+            ScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.ViewSubject.Button2">
+            <summary>
+            Button2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.ViewSubject.ddlSelectCourse">
+            <summary>
+            ddlSelectCourse control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.ViewSubject.ddlSelectSemester">
+            <summary>
+            ddlSelectSemester control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.ViewSubject.btnReset">
+            <summary>
+            btnReset control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Subject.ViewSubject.lblMsg">
+            <summary>
+            lblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.Test.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.UploadFile.UploadPDFfile.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.UploadFile.UploadPDFfile.ScriptManager1">
+            <summary>
+            ScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.UploadFile.UploadPDFfile.fileUploadStudyMaterial">
+            <summary>
+            fileUploadStudyMaterial control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.UploadFile.UploadPDFfile.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.UploadFile.UploadPDFfile.btnUploadPDFfile">
+            <summary>
+            btnUploadPDFfile control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.UploadFile.UploadPDFfile.lblMsg">
+            <summary>
+            lblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.UploadFile.ViewStudyMaterial.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.UploadFile.ViewStudyMaterial.ScriptManager1">
+            <summary>
+            ScriptManager1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.UploadFile.ViewStudyMaterial.GridView1">
+            <summary>
+            GridView1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.UploadFile.ViewStudyMaterial.btnBackToHome">
+            <summary>
+            btnBackToHome control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CollegeSocialNetwork.UploadFile.ViewStudyMaterial.lblMsg">
+            <summary>
+            lblMsg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+    </members>
+</doc>
